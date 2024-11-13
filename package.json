@@ -1,4 +1,11 @@
 {
+  "homepage": "https://your-username.github.io/ai-training",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    // ... other scripts remain the same
+
+{
   "name": "ai-training",
   "private": true,
   "version": "0.0.0",
